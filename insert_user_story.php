@@ -1,7 +1,7 @@
 <?php
 
 error_reporting(0);
-$connection = mysqli_connect("192.168.63.38","root","jfr3u9t","abaka_db");
+$connection = mysqli_connect("","","","");
 $base_url = $_SERVER['DOCUMENT_ROOT'];
 session_start();
 $sub_category_id_fk = $_REQUEST['sub_category_id_fk'];
