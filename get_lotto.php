@@ -1,7 +1,7 @@
 <?php
 header('Content-type: text/json');
 error_reporting(0);
-$connection = mysqli_connect("192.168.63.38","root","jfr3u9t","abaka_db");
+$connection = mysqli_connect("","","","");
 //$con = mysqli_connect("localhost","root","","ctifls_db");
 
 //Check connection
