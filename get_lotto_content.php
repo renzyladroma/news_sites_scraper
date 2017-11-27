@@ -1,8 +1,8 @@
 <?php
 header('Content-type: text/json');
 error_reporting(0);
-$connection = mysqli_connect("192.168.63.38","root","jfr3u9t","cms_db");
-//$con = mysqli_connect("localhost","root","","ctifls_db");
+$connection = mysqli_connect("","","","");
+
 
 //Check connection
 if (mysqli_connect_errno()) {
