@@ -1,7 +1,7 @@
 <?php
 header('Content-type: text/json');
 	error_reporting(0);
-$connection = mysqli_connect("120.28.24.42","root","jfr3u9t", "abaka_db");
+$connection = mysqli_connect("","","", "");
 	
 	
 
