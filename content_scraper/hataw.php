@@ -2,7 +2,7 @@
 <?php
 set_time_limit(0);
 header("Content-Type: text/html; charset=utf-8");
-	$con = mysqli_connect("120.28.24.42","root","jfr3u9t","abaka_db");
+	$con = mysqli_connect("","","","");
 	mysqli_set_charset($con,"utf8");
 	$stmt = "SELECT rssingest.item_url FROM abaka_db.rssingest WHERE rssingest.category_id = '1' AND rssingest.update IS NULL AND rssingest.fetch_date >= CURDATE() 
 			AND rssingest.source = 'Philippine Star'";
