@@ -1,6 +1,6 @@
 <?php
 set_time_limit(0);
-	$con = mysqli_connect("192.168.63.38","root","jfr3u9t","abaka_db");
+	$con = mysqli_connect("","","","");
 	$stmt = "SELECT rss_reader_test.item_url FROM rss_reader_test WHERE rss_reader_test.source = 'Bandera' AND DATE(fetch_date) = CURDATE()";
 	$url = $con->query($stmt);
 	$html2 = mysqli_real_escape_string($con, $stmt); 
